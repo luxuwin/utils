@@ -1,5 +1,3 @@
-# input=test.tar.zst.gpg.* 
-# output=test/
 input=$1
 output=$2
 # receipt of the gpg key. usually an email

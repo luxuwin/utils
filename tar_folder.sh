@@ -22,11 +22,3 @@ echo $cmd
 
 eval $cmd
 
-
-# server=pi@192.168.1.166
-
-
-
-# rsync -aP --partial-dir=.rsync-partial $archname.* $server:$output
-
-# rm -r tmp

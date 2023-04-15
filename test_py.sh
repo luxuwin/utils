@@ -3,11 +3,8 @@
 rm -rf ./testdest/*
 rm -rf ./testrestore/*
 
-key=test@key
-
 # archive
-./tar_folder.sh ./testsource  ./testdest/testsource_arch $key "./testsource/l1/" 
-#./tar_folder.sh ./testsource  ./testdest/testsource_arch $key "./testsource/l1/;./testsource/l2/" 
+python3 ./archive.py
 
 # restore
-./restore_folder.sh ./testdest/testsource_arch.tar.zst.gpg.aa ./testrestore/ $key
+python3 ./restore.py

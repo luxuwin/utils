@@ -8,7 +8,7 @@ gpg --list-secret-keys
 gpg --output test_key.gpg --export test_key
 
 # edit if needed
-gpg --edit-key id
+# gpg --edit-key id
 
 # import
-gpg --import test_key.gpg
+# gpg --import test_key.gpg

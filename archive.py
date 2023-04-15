@@ -8,10 +8,10 @@ parser.add_argument('--max_depth', type=int, default=2)
 
 args = parser.parse_args()
 
-srcPath = args.src_path  # "./testsource" # os.path.abspath("./testsource")
-dstPath = args.dst_path  # "./testdest"   #  os.path.abspath("./testdest")
+srcPath = args.src_path
+dstPath = args.dst_path
 maxDepth = args.max_depth
-key= args.key # "test@key"
+key= args.key
 
 #for gpg
 os.environ["tty"]=os.environ["GPG_TTY"]
