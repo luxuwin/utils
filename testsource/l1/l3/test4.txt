@@ -1,0 +1,4 @@
+script 1: tar + zstd + gpg + split a given folder and output to a relative path
+script 2: walk directories with certain depths and call script 1
+script 3: rsync everything to remote
+script 4: rsync back a given folde
